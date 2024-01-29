@@ -30,7 +30,7 @@ public class VariableEx2 {
 		// int result1 = num1 + num2;
 		// Type mismatch: cannot convert from long to int
 		// -> int + long
-		//  -> long + long으로 자동 형변황
+		//  -> long + long으로 자동 형변환
 		//  -> 결과도 long
 		// 그런데 int 형 변수에 long을 대입하려고 해서 오류 발생
 
