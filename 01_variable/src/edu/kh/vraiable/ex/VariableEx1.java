@@ -4,7 +4,7 @@ public class VariableEx1 {
 	
 		public static void main(String[] arg) {
 			// 변수 : 메모리 값을 저장하기 위한 공간
-			//				ㅇ;때, 저장되는 값이 변할 수 있어 변수
+			//				이때, 저장되는 값이 변할 수 있어 변수
 			
 			// 자료형 (data type)
 			// - 변수 또는 값의 크기와 형식
