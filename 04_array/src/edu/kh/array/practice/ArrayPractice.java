@@ -45,18 +45,38 @@ public class ArrayPractice {
 
 	}
 	
-	public void practice3(){
+	public void practice3() {
 
 		System.out.print("양의 정수 : ");
+
 		int arr = sc.nextInt();
-		int[] randoms = new int[arr];
-		for(int i = 1 ; i< arr; i++) {
-		
+
+		for (int i = 1; i <= arr; i++) {
+			int arr2[] = new int[i];
+			System.out.print(i + " ");
+
+		}
+	}
+
+	public void practice4() {
+
+		int[] arr = new int[5];
+
+		for (int i = 0; i < arr.length; i++) {
+
+			System.out.printf("입력 %d : ", i);
+			arr[i] = sc.nextInt();
+
 		}
 
+		System.out.print("검색할 값 : ");
 
 	}
+
 }
+
+
+
 
 
 
