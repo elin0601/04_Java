@@ -1,4 +1,4 @@
-package edu.kh.op.ex;
+ package edu.kh.op.ex;
 
 import java.util.Scanner; // Scanner 클래스(설계도) 가져오기
 
