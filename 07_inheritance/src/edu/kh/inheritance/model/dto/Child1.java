@@ -40,7 +40,7 @@ public class Child1 extends Parent {
 		this.computer = computer;
 	}
 	
-	// Child1의 필드 + 물려 받은 필드 문자열로 마들어 반환
+	// Child1의 필드 + 물려 받은 필드 문자열로 만들어 반환
 	public String informChild1() {
 		return String.format("%s / %s / %d / %s / %s", lastName, address, getMoney(), getCar(), computer);
 	}
@@ -58,5 +58,14 @@ public class Child1 extends Parent {
 	 public String toString() {
 		 return super.toString() + "\nChild1.toString() : " + computer; 
 		 			// Parent.toString
+	 }
+	 
+	 /* final 메서드 -> 오버라이딩 불가
+	  * 
+	  *  - 메서드의 기능이 변하면 안되는 경우
+	  *  
+	  *  */
+	 public final void onlyChild1() {
+		 System.out.println("fianl 메서드 입니다");
 	 }
 }

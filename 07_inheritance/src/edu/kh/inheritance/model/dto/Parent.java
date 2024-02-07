@@ -13,6 +13,7 @@ public class Parent /* extends Object */ {
 	private int money = 100_000_000;// 1억
 	private String car = "그랜져";
 	
+	// Parent 기본 생성자
 	public Parent() {
 		System.out.println("기본 생성자로 부모 객체 생성됨");
 		}
