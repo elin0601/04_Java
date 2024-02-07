@@ -29,7 +29,7 @@ public abstract class Animal {
 	public void setType(String type) {
 		this.type = type;
 	}
-	
+
 	@Override
 	public String toString() {
 		return type;
