@@ -9,8 +9,8 @@ public class ListRun {
 	 ListService service = new ListService();
 	 
 	 // service.method1();
-	 // service.method2();
+	  service.method2();
 	 
-	 service.bookManage();
+	 // service.bookManage();
  }
 }
