@@ -22,7 +22,7 @@ public class SetService {
 	 * 
 	 * Set 인터페이스의 자식 클래스
 	 * 
-	 * 1. HashSet(대표) : 처리 속고다 빠른 Set
+	 * 1. HashSet(대표) : 처리 속도다 빠른 Set
 	 * 
 	 * 2. LinkedHashSet : 순서를 유지하는 Set
 	 * 
