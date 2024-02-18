@@ -1,4 +1,4 @@
-package edu.kh.condition.ex;
+package src.edu.kh.condition.ex;
 
 // 같은 패키지에 존재하는 클래스는 import 안해도 된다!
 
