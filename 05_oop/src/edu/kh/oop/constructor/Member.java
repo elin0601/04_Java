@@ -29,6 +29,36 @@ public class Member {
 	private String memberName; // 이름
 	private int memberAge; // 나이
 	
+	// 오버로딩을 이용해서 생성자 만들기
+	public Member(String MemberId) {  // 매개변수 개수가 다름
+		this.memberId = memberId;
+	}
+	public Member(String memberId, String memberPw) {
+		this.memberId = memberId;
+		this.memberPw = memberPw;
+	}
+	
+	// 매개 변수 타입이 다름
+	public Member (String memberId, int memberAge) {
+		this.memberId=memberId;
+		this.memberAge=memberAge;
+	}
+	
+	// 매개 변수 순서가 다름
+	public Member (int memberAge, String memberId ) {
+		this.memberId=memberId;
+		this.memberAge=memberAge;
+	}
+	
+	
+	//Duplicate method Member(int, String) in type Member
+	// -> Member(int, String) 생성자 중복
+	
+	// --> 오버로딩은 변수명이 아닌 자료형이 갯수, 순서, 타입 중 하나라도 달라야 성립!!
+	// public Member(int memberAge, String memberPw) {}
+	
+	 
+	
 	
 	// 생성자 : 객체 생성 시 필드를 초기화 + 특정 기능 수행하는
 	//					일종의 메서드

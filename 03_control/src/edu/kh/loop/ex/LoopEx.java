@@ -1,4 +1,4 @@
-package edu.kh.loop.ex;
+package src.edu.kh.loop.ex;
 
 import java.util.Scanner;
 
