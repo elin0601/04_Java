@@ -40,14 +40,4 @@ public class IPInfo {
 		return ip + " / " +  user ;
 	}
 
-
-
-	public Object get(String ip2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	
-	
-
 }
